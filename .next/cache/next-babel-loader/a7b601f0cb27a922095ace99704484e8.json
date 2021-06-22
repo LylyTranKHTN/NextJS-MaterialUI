@@ -1,1 +1,0 @@
-{"ast":null,"code":"import Wrapper from './wrapper';\nexport { Wrapper };","map":{"version":3,"sources":["D:/nextjs/shoponline/src/components/index.js"],"names":["Wrapper"],"mappings":"AAAA,OAAOA,OAAP,MAAoB,WAApB;AAEA,SACEA,OADF","sourcesContent":["import Wrapper from './wrapper';\r\n\r\nexport {\r\n  Wrapper,\r\n}\r\n"]},"metadata":{},"sourceType":"module"}
