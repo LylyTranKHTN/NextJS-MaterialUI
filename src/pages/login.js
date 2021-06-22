@@ -1,5 +1,3 @@
-import styles from '../styles/Home.module.css'
-
 function Login() {
   return <div>Login {process.env.customKey}</div>
 }

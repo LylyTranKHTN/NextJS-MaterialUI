@@ -11,7 +11,6 @@ import { Grid } from '@material-ui/core';
 import { useRouter } from 'next/dist/client/router';
 
 export default function Home(props) {
-  console.log(props.isOK);
   const router = useRouter();
   const handleClickGirdItem = (id) => {
     router.push(`/product/${id}`);
@@ -43,7 +42,7 @@ export default function Home(props) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch("http://localhost:3000/images/img1.jpg");
+  const res = await fetch(`${process.env.NEXT_PUBLIC_ANALYTICS_ID}/images/img1.jpg`);
   await res.ok;
   if (res.ok) {
     return {
