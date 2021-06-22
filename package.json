@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "format": "prettier --write 'A_COMPLEX_GLOB_MATCHING_SRC_AND_DOCS' && crlf-fixer --write 'A_COMPLEX_GLOB_MATCHING_SRC_AND_DOCS'"
   },
   "lint-staged": {
