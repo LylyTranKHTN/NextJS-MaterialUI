@@ -42,7 +42,7 @@ export default function Home(props) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_ANALYTICS_ID}/images/img1.jpg`);
+  const res = await fetch(`${process.env.baseURL}/images/img1.jpg`);
   await res.ok;
   if (res.ok) {
     return {

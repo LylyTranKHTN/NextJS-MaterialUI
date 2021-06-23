@@ -53,6 +53,7 @@ module.exports = {
     target: 'serverless',
     env: {
       customKey: 'my-value',
+      baseURL="https://localhost:3000"
     },
     async rewrites() {
         return [
