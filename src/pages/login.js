@@ -3,7 +3,7 @@ function Login() {
 }
 
 // This function gets called at build time
-export async function getStaticProps() {
+// export async function getStaticProps() {
 // Call an external API endpoint to get posts
 // const res = await fetch('localhost:8000')
 // const posts = await res.json()
@@ -15,6 +15,6 @@ export async function getStaticProps() {
 //     posts,
 //     },
 // }
-}
+// }
 
 export default Login;
